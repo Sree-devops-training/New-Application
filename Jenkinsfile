@@ -2,12 +2,10 @@
 properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '', numToKeepStr: '3'))])
 
 node {
-   /* 
     stage('Checkout') { 
-   git branch: 'development', credentialsId: '7eae45e3-b94b-46b4-b754-5bffe4afd2fb', url: ' https://github.com/mohansoftwares/maven-web-application.git'
+    git credentialsId: 'faf90183-6de5-433c-bf36-d6d0ea42dd86', url: 'https://github.com/Sree-devops-training/New-Application.git'
 
    }
- */
  
  stage('Checkout'){
 
@@ -50,7 +48,7 @@ node {
        sh 'cp $WORKSPACE/target/*.war /Users/bhaskarreddyl/BhaskarReddyL/Softwares/Running/apache-tomcat-9.0.12/webapps/'
        sh 'echo deploymnet done'
    }
-   */
+   
    stage ('Email Notifcation'){
        
        mail bcc: '', body: '''Build done
@@ -58,5 +56,5 @@ node {
 Regards,
 Mithun Technologies''', cc: 'bhaskar0504@gmail.com', from: '', replyTo: '', subject: 'Deployment done', to: 'devopstrainingblr@gmail.com,satyaswarup.inbox@gmail.com'
    } 
-    
+  */  
 }
