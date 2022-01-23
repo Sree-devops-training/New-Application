@@ -56,5 +56,4 @@ node {
 Regards,
 Mithun Technologies''', cc: 'bhaskar0504@gmail.com', from: '', replyTo: '', subject: 'Deployment done', to: 'devopstrainingblr@gmail.com,satyaswarup.inbox@gmail.com'
    } 
-  */  
 }
