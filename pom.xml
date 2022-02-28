@@ -94,7 +94,7 @@
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <name>Mithun Technologies Snapshot Nexus Repository</name>
 	      <url>http://3.26.206.24:8081/repository/pipeline-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
