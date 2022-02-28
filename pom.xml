@@ -90,12 +90,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://52.64.7.61:8081/repository/automation/</url>
+	      <url>http://3.26.206.24:8081/repository/pipeline-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.64.7.61:8081/repository/automation-snapshot/</url>
+	      <url>http://3.26.206.24:8081/repository/pipeline-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
