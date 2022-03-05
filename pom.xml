@@ -90,7 +90,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <urlhttp://3.26.206.24:8081/repository/pipeline/></url>
+	      <url>http://3.26.206.24:8081/repository/pipeline/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
