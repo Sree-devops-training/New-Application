@@ -23,7 +23,7 @@
 		<junit.version>4.12</junit.version>
 
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.24.180.23:9000/</sonar.host.url>
+		<sonar.host.url>http://13.55.217.114:9000/</sonar.host.url>
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -90,12 +90,12 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://3.26.177.136:8081/repository/pipeline/</url>
+	      <url>http://3.26.186.69:8081/repository/pipeline/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository</name>
-	      <url>http://3.26.177.136:8081/repository/pipeline-snapshot/</url>
+	      <url>http://3.26.186.69:8081/repository/pipeline-snapshot/</url>
 	    </snapshotRepository>
 	</distributionManagement>
 	
@@ -105,7 +105,7 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.5.1</version>
+				<version>2.7.0</version>
 				<inherited>true</inherited>
 				<configuration>
 					<source>1.8</source>
